@@ -1,0 +1,71 @@
+body {
+    background-color: antiquewhite;
+
+}
+
+/* Computador */
+@media (min-width: 769px) {
+    h1 {
+        color: green;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 80px;
+    }
+
+    .text {
+        color: green;
+        text-align: justify;
+        margin: 40px;
+        font-size: 30px;
+        margin: 100px;
+    }
+
+
+    .card {
+        font-size: 50px;
+        color: antiquewhite;
+        background-color: green;
+        border: 5px solid green;
+        border-radius: 10px;
+        width: 70rem !important;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        color: green;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .text {
+        color: green;
+        text-align: justify;
+        margin: 40px;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        font-size: 40px;
+        color: antiquewhite;
+        background-color: green;
+        border: 5px solid green;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+    
+}
+}
+.navbar.bg-body-tertiary {
+    background-color: green !important;
+}
+.navbar .navbar-nav .nav-link,
+  .navbar .navbar-brand,
+  .navbar .navbar-toggler-icon {
+    color: antiquewhite !important;
+  }

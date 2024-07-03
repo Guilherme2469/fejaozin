@@ -1,0 +1,100 @@
+body {
+    background-color: antiquewhite;
+}
+
+@media (min-width: 769px) {
+    h1 {
+        color: green;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 80px;
+    }
+
+    .text {
+        color: green;
+        text-align: justify;
+        margin: 100px;
+        font-size: 40px;
+        margin-top: 80px;
+    }
+
+    .card {
+        border: 2px solid green;
+        border-radius: 10px;
+        margin-top: 20px;
+        background-color: green;
+        color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .d-flex {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        color: green;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .text{
+        color: green;
+        text-align: justify;
+        margin: 40px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Define a largura total para ocupar a largura do dispositivo */
+        margin-bottom: 20px; /* Ajusta o espaçamento entre os cards */
+        order: 2px solid green;
+        border-radius: 10px;
+        margin-top: 20px;
+        background-color: green;
+        color: antiquewhite;
+    }
+
+    .card-body {
+        padding: 0.75rem; /* Reduz o preenchimento interno do corpo do card */
+    }
+
+    .card-title {
+        font-size: 1.25rem; /* Reduz o tamanho do título do card */
+    }
+
+    .card-text {
+        font-size: 0.875rem; /* Reduz o tamanho do texto do card */
+    }
+
+    .d-flex {
+        flex-wrap: wrap; /* Permite que os cards se ajustem automaticamente em linhas */
+    }
+}
+
+.navbar.bg-body-tertiary {
+    background-color: green !important;
+}
+.navbar .navbar-nav .nav-link,
+  .navbar .navbar-brand,
+  .navbar .navbar-toggler-icon {
+    color: antiquewhite !important;
+  }
